@@ -8,33 +8,13 @@
 
 <body>
   <p>
-    print("Welcome to RPS.\nThe Premise: Rock Paper Scissors or RPS is a game between 2 people where each player picks either rock, paper or scissors. Both players simultaneously count down to 3, then they both reveal their choice. A winner is then picked depending on the rules.\nThe Rules:\n1. Rock beats scissors.\n2. Scissors beat paper.\n3. Paper beats rocks")
+    ● Give an example of a software that you personally used that you think was
+designed well and explain why.
+I’ve previously used “Onshape” which is a 3D design software. I particularly liked and still like the attention to detail and the tools available to create a perfect 3D structure. The work-area isn’t cluttered and every tool is easy to find. I especially liked the effective use of windows, icons, menus and pointers which were all easy to find, learn and use. As a young student in a new course in a relatively new field, I’ve found the use of “Onshape” generally enjoyable, easy to use. There are of course areas for improvement, and the functionality of some tools aren’t as obvious as others, as well as camera was difficult to manipulate at first, but all of these issues are subjective rather than objective, with time I’ve learnt to use “Onshape” to it’s full entirety, which I later used for multiple work assignments, outside and inside of highschool.
 
-flag = False
-allowedInputs = [1,2,3]
-while(flag == False):
-    p1Choice = int(input("Enter the input for Player 1 (Rock=1, Paper=2, Scissors=3): "))
-    p2Choice = int(input("Enter the input for Player 2 (Rock=1, Paper=2, Scissors=3): "))
-    if(p1Choice in allowedInputs) and (p2Choice in allowedInputs):
-        flag = True
-    else:
-        print("Player 1/2 chose invalid input. Try again.")
-        flag = False
-        
-if(p1Choice == 1 and p2Choice == 2):
-    print("Player 2 Wins.")
-elif(p1Choice == 2 and p2Choice == 1):
-    print("Player 1 Wins.")
-elif(p1Choice == 2 and p2Choice == 3):
-    print("Player 2 Wins.")
-elif(p1Choice == 3 and p2Choice == 2):
-    print("Player 1 Wins.")
-elif(p1Choice == 3 and p2Choice == 1):
-    print("Player 2 Wins.")
-elif(p1Choice == 1 and p2Choice == 3):
-    print("Player 1 Wins.")
-else:
-    print("Its a tie!")
+    ● Why is software design important?
+For myself, I define “Software Design” as the effective distribution of a program or software for users as well as other programmers. For users, how well a software is designed depends on how easy it is to learn the functionality of the program to its entirety. I believe the use of windows, icons, menus and pointers is a good way of increasing the learnability and improving the software design of the program in question. However for other software developers, how well a software is designed depends on how easy it is to understand the algorithms of the program and how easy it is to modify. Use of comments, clean coding styles and effective variable names could help in improving the design of a software.
+
     
 
 
